@@ -1,0 +1,23 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: UTF-8
+  pool: 5
+  username:
+  password:
+  host: localhost
+
+development:
+  database: ecli_dev
+  <<: *defaults
+
+test:
+  database: ecli_test
+  <<: *defaults
+
+production:
+  database: ecli_production
+  <<: *defaults
+
+staging:
+  database: ecli_production
+  <<: *defaults
