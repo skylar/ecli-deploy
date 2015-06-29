@@ -27,7 +27,12 @@ gem 'ember-cli-rails'
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'uglifier'
+  gem 'uglifier',     '1.2.7'
+  gem 'coffee-rails', '3.2.2'
+  # Twitter Bootstrap, for pretty default templates
+  gem 'bootstrap-sass', '3.1.1.1'
+  gem 'bourbon', '3.2.4'
+  gem 'neat'
 end
 
 # serve gzipped assets
