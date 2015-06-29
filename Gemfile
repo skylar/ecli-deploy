@@ -27,6 +27,7 @@ gem 'ember-cli-rails'
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
+  gem 'uglifier'
 end
 
 # serve gzipped assets

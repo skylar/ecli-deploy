@@ -16,3 +16,7 @@
 
 # Heroku
 .env
+
+# Ignore precompiled assets
+.sass-cache
+public/assets
