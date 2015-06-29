@@ -15,17 +15,17 @@ gem 'activerecord',   RAILS_VERSION
 gem 'tzinfo',         '~> 0.3.32'
 gem 'pg', '~> 0.17.1'
 
-#gem 'dm-rails',       '~> 1.2.1'
-gem 'dm-postgres-adapter',  DM_VERSION
-gem 'dm-migrations',   DM_VERSION
-gem 'dm-types',        DM_VERSION
-gem 'dm-postgres-types'
-gem 'dm-validations',  DM_VERSION
-gem 'dm-transactions', DM_VERSION
-gem 'dm-aggregates',   DM_VERSION
-gem 'dm-timestamps',   DM_VERSION
-gem 'dm-observer',     DM_VERSION
-gem 'dm-adjust',       DM_VERSION
+# gem 'dm-rails',       '~> 1.2.1'
+# gem 'dm-postgres-adapter',  DM_VERSION
+# gem 'dm-migrations',   DM_VERSION
+# gem 'dm-types',        DM_VERSION
+# gem 'dm-postgres-types'
+# gem 'dm-validations',  DM_VERSION
+# gem 'dm-transactions', DM_VERSION
+# gem 'dm-aggregates',   DM_VERSION
+# gem 'dm-timestamps',   DM_VERSION
+# gem 'dm-observer',     DM_VERSION
+# gem 'dm-adjust',       DM_VERSION
 
 
 # ASSET and PACKAGE management
