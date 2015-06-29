@@ -11,3 +11,14 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require_tree .
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap/button
+//= require bootstrap/tab
+//= require bootstrap/tooltip
+//= require bootstrap/dropdown
+//= require bootstrap/transition
+//= require bootstrap/tab
+//= require bootstrap/carousel
+//= require moment
+//= require d3

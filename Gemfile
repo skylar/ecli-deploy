@@ -33,7 +33,13 @@ group :assets do
   gem 'bootstrap-sass', '3.1.1.1'
   gem 'bourbon', '3.2.4'
   gem 'neat'
+  gem 'turbo-sprockets-rails3', '~> 0.3'
 end
+gem 'jquery-rails', '~> 3.1.0'
+# other JS libs
+gem 'momentjs-rails', '~> 2.4.0'
+# D3
+gem 'd3-rails', '~> 3.5.5'
 
 # serve gzipped assets
 gem 'rack-zippy'
